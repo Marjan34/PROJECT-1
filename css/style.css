@@ -15,6 +15,7 @@ body{
       background-image: url(/images/header_bg.png), url('/images/developer.png');
       background-repeat: no-repeat;
       background-position: bottom right, top left;
+      padding-: 0 130px;
   
   }
   .banner{
@@ -85,19 +86,22 @@ body{
   }
   /* main section style */
   /* About section style */
-  main{
+  /* main{
       width: 1140px;
       margin: 0 auto;
-  }
+  } */
   main section{
       margin-top: 130px;
   }
   .about{
-      padding: 130px;
+      padding: 0 130px;
       border-radius: 10px;
       background: rgb(255, 248, 243);
-      margin: 130px 0 ;
+      margin: 0 130 ;
   
+  }
+  .section_skill,.resume_id{
+    padding: 0 130px;
   }
   .about-info-container{
       display: flex;
